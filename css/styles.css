@@ -1,0 +1,206 @@
+/* основний колір заголовків| color: #212121 */
+/* масивний текст| color: #757575 */
+/* білий колір(фон,герой)| color: #FFFFFF */
+/* колір силок| color: #2196F3 */
+/* footer color (фон)| background: #2f303a  */
+/* our team(фон) |background: #F5F4FA */
+
+:root {
+  --main-color-titles-color: #212121;
+  --massive-text-color: #757575;
+  --white-bg-color: #ffffff;
+  --color-forces-color: #2196f3;
+  --footer-background-color: #2f303a;
+  --our-team: #f5f4fa;
+  --main-letter-spacing: 0.03em;
+}
+
+body {
+  background-color: var(--white-bg-color);
+  color: var(--massive-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: var(--main-letter-spacing);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+}
+
+/* logo*/
+
+.logo {
+  color: var(--color-forces-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo-black {
+  color: var(--main-color-titles-color);
+}
+
+.logo-white {
+  color: var(--white-bg-color);
+}
+
+/*navigate*/
+
+.site-nav .link {
+  color: var(--main-color-titles-color);
+  text-decoration: none;
+}
+
+.site-nav .text-secondary {
+  color: var(--massive-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--color-forces-color);
+}
+
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-forces-color);
+}
+
+.hero .hero-title {
+  background-color: var(--footer-background-color);
+  color: var(--white-bg-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/*Our advantages */
+
+.advantages .advantages-title {
+  color: var(--main-color-titles-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.advantages .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* our work and team*/
+
+.section .section-title {
+  color: var(--main-color-titles-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--our-team);
+}
+
+.section .worker {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.section .profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/*portfolio navigate*/
+.navigation .nav-title {
+  color: var(--main-color-titles-color);
+}
+
+.button {
+  color: var(--white-bg-color);
+  background-color: var(--color-forces-color);
+  font-family: inherit;
+}
+
+.navigation .nav-title:hover,
+.navigation .nav-title:focus {
+  color: var(--white-bg-color);
+  background-color: var(--color-forces-color);
+}
+
+.navigation .nav-title {
+  font-family: inherit;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: var(--main-letter-spacing);
+}
+
+/*examples*/
+
+.examples .examples-title {
+  color: var(--main-color-titles-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples .variety {
+  color: var(--massive-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* footer*/
+
+footer {
+  background-color: var(--footer-background-color);
+}
+
+footer .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: var(--main-letter-spacing);
+}
+
+footer .link:hover,
+footer .link:focus {
+  color: var(--color-forces-color);
+}
+
+footer .link.color {
+  color: var(--white-bg-color);
+}
