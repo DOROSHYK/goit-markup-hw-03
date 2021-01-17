@@ -30,6 +30,18 @@ ul {
   list-style: none;
 }
 
+.container-discharge {
+  margin-bottom: 0;
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 1px solid red;
+}
+
 .header-container {
   background: #c4c4c4;
 }
@@ -99,6 +111,7 @@ ul {
 .hero {
   text-align: center;
   outline: 1px solid green;
+  margin-bottom: 94px;
 }
 
 .hero .hero-title {
@@ -109,6 +122,8 @@ ul {
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*Our advantages */
@@ -117,12 +132,18 @@ ul {
   outline: 1px solid salmon;
 }
 
+.advantages-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .advantages .advantages-title {
   color: var(--main-color-titles-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .advantages .text {
@@ -130,6 +151,7 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* our work and team*/
@@ -141,10 +163,46 @@ ul {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  padding-bottom: 50px;
 }
 
-.team {
+.subject {
+  padding-top: 94px;
+}
+
+.background-team .out-work-img {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.out-work {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.our-team {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.background-team . {
   background-color: var(--our-team);
+}
+
+.team-container {
+  margin-bottom: 94px;
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 94px;
+  background-color: var(--our-team);
+  outline: 1px solid red;
 }
 
 .section .worker {
@@ -157,11 +215,15 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*portfolio navigate*/
 .navigation .nav-title {
   color: var(--main-color-titles-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .button {
@@ -189,6 +251,11 @@ ul {
   line-height: 1.6;
   text-align: center;
   letter-spacing: var(--main-letter-spacing);
+  border-radius: 4px;
+}
+.navigation {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*examples*/
@@ -202,18 +269,34 @@ ul {
   letter-spacing: 0.06em;
 }
 
+.examples {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .examples .variety {
   color: var(--massive-text-color);
 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.description {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* footer*/
 
 footer {
   background-color: var(--footer-background-color);
+}
+
+.logotype {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 footer .link {
