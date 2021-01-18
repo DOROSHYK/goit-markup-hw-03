@@ -31,19 +31,18 @@ ul {
 }
 
 .container-discharge {
-  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.container-discharge {
   width: 1170px;
   margin-right: auto;
   margin-left: auto;
 
   padding-left: 15px;
   padding-right: 15px;
-
-  outline: 1px solid red;
-}
-
-.header-container {
-  background: #c4c4c4;
+  margin-bottom: 0;
 }
 
 .container {
@@ -112,6 +111,7 @@ ul {
   text-align: center;
   outline: 1px solid green;
   margin-bottom: 94px;
+  margin-top: 0;
 }
 
 .hero .hero-title {
@@ -173,7 +173,7 @@ ul {
   padding-top: 94px;
 }
 
-.background-team .out-work-img {
+.out-work-img {
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -188,7 +188,7 @@ ul {
   margin-bottom: 0;
 }
 
-.background-team . {
+.background-team > .section {
   background-color: var(--our-team);
 }
 
