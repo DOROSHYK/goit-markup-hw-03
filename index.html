@@ -18,18 +18,20 @@
          <!-- Navigation container -->
 
     <div class="container-discharge">
-<nav>
+
+         <div class="main-nav">
+<nav class="main-nav">
     
    
          <a href="/" class="logo">
-        <p class="logotype">Web<span class="logo-black">Studio</span></p>
+        <p class=" ">Web<span class="logo-black">Studio</span></p>
          </a>
 
-        <ul class="site-nav">
+        <ul class="site-nav ">
 
-               <li><a href="/" class="link current"> Студия</a></li>
-               <li><a href="./portfolio.html" class="link"> Портфолио</a></li>
-               <li><a href="" class="link"> Контакты</a></li>
+               <li class="item to-logo"><a href="/" class="link current"> Студия</a></li>
+               <li class="item"><a href="./portfolio.html" class="link"> Портфолио</a></li>
+               <li class="item"><a href="" class="link"> Контакты</a></li>
       
     </ul>
    
@@ -37,21 +39,21 @@
     </nav>
     
     <!-- Contact container -->
-    <ul class="site-nav">
+    <ul class="site-nav auto-margin">
         
 
-      <li>
+      <li class="item">
           <a class="link text-secondary" href="mailto:info@devstudio.com">info@devstudio.com</a>
         
         </li>
     
-     <li> 
+     <li class="item"> 
          <a class="link text-secondary" href="tel:+380961111111">+380961111111</a>
         
         </li>
 
      </ul>
-    
+    </div>
 </div>
 
 </header>
@@ -74,22 +76,22 @@
       
 
     <ul class="advantages-list">
-        <li>
+        <li class="advantages-item">
             <h3 class="advantages-title"><b> ВНИМАНИЕ К ДЕТАЛЯМ </b></h3>
             <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
 
-        <li>
+        <li class="advantages-item">
             <h3 class="advantages-title"><b>ПУНКТУАЛЬНОСТЬ</b></h3>
             <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой. </p>
         </li>
 
-        <li>
+        <li class="advantages-item">
             <h3 class="advantages-title"><b>ПЛАНИРОВАНИЕ</b></h3>
             <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
 
-        <li>
+        <li class="advantages-item">
         <h3 class="advantages-title"><b>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</b></h3>
         <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
@@ -106,19 +108,19 @@
         
         <ul class="out-work-img">
         
-            <li>
+            <li class="img-work">
                 <a href="">
-                    <img src="./img/box1.png" alt="" width="370" height="294">
+                    <img src="./img/box1.jpg" alt="" width="370" height="294">
                 </a>
             </li>
-            <li>
+            <li class="img-work">
                 <a href="">
-                    <img src="./img/box2.png" alt="" width="370" height="294">
+                    <img src="./img/box2.jpg" alt="" width="370" height="294">
                 </a>
             </li>
-            <li>
+            <li class="img-work">
                 <a href="">
-                    <img src="./img/box3.png" alt="" width="370" height="294">
+                    <img src="./img/box3.jpg" alt="" width="370" height="294">
                 </a>
             </li>
         </ul>
@@ -127,68 +129,79 @@
    
 </section>
             <!-- our team -->
-            <div class="container background-team">
-
+           
             
 
-    <section class="section ">
+    <section class="section background-team">
+
+        <div class="team-container ">
+
     
-    <h3 class="section-title subject">Наша команда</h3>
+    <h3 class="section-title ">Наша команда</h3>
     
     <ul class="our-team">
+        
         <li class="team">
-            <img src="./img/im3.png"  alt="team cart-1" width="270" height="260">
-        <b class="section-title  worker">Игорь Демьяненко</b>
+            <img src="./img/img1.jpg"  alt="team cart-1" width="270" height="260">
+        <b class="section-title worker">Игорь Демьяненко</b>
             <p class="profession"  lang="en">Product Designer</p>
          </li>
         
+        
 
-    
         <li class="team">
-         <img src="./img/img.png"   alt="team cart-2" width="270" height="260">
+         <img src="./img/img2.jpg"   alt="team cart-2" width="270" height="260">
         <b class="section-title worker">Ольга Репина</b>
             <p class="profession"  lang="en">Frontend Developer</p>
          </li>
+
+
         
          <li class="team">
-        <img src="./img/img1.png"  alt="team cart-3" width="270" height="260">
+        <img src="./img/img3.jpg"  alt="team cart-3" width="270" height="260">
         <b class="section-title worker">Николай Тарасов</b>
             <p class="profession" lang="en">Marketing</p>
          </li>
         
-
+        
+        
          <li class="team">
-        <img src="./img/img2.png" alt="team cart-4" width="270" height="260">
+        <img  src="./img/img4.jpg" alt="team cart-4" width="270" height="260">
          <b class="section-title worker">Михаил Ермаков</b>
             <p class="profession" lang="en">UI Designer</p>
          </li>
         
+        
     </ul>
-    
+</div>
 
 </section>
-</div>
+
 
 </main>
 
-<footer class="">
+<footer class="margin-logo">
+
+    <div class="container-footer">
+
     <a href="/" class="logo">
         <p class="logotype">Web<span class="logo-white">Studio</span></p>
     </a>
 
-    <address class=""> <a class="link color" href="https://goo.gl/maps/P3N7a8cpFeK4ErDN9"> г. Киев, пр-т Леси Украинки, 26</a>
+    <address class="map-addres"> <a class="link color" href="https://goo.gl/maps/P3N7a8cpFeK4ErDN9"> г. Киев, пр-т Леси Украинки, 26</a>
 
-    <ul>
-        <li> 
+    <ul class="main-addres">
+        <li class="mail-link"> 
             <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
     
-        <li> 
+        <li class="tell-link"> 
             <a class="link" href="tel:+380961111111">+380961111111</a>
         </li>
     </ul>
 
     </address>
+    </div>
 
 </footer>
 
