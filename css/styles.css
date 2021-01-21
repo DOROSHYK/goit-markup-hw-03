@@ -225,7 +225,6 @@ ul {
 }
 
 .section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -377,7 +376,7 @@ ul {
   margin-right: 8px;
 }
 
-.navigation .navigation-page:last-child {
+.navigation .navigation-page:not(:last-child) {
   margin-left: 0;
 }
 
@@ -416,6 +415,7 @@ ul {
 .examples .examples-work {
   margin-right: 30px;
   margin-bottom: 30px;
+  outline: 1px solid #eeeeee;
 }
 
 .examples-work:nth-child(3n) {
