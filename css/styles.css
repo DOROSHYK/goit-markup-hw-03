@@ -231,7 +231,11 @@ ul {
   margin-bottom: 0;
   text-align: center;
 
-  padding-bottom: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.section .team-margin {
+  margin-bottom: 50px;
 }
 
 .out-work-img .img-work + .img-work {
@@ -387,6 +391,7 @@ ul {
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 4px;
 }
 
 .examples {
@@ -419,9 +424,9 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
 }
-.description {
-  margin-top: 0;
-  margin-bottom: 0;
+
+.examples-cont {
+  padding: 20px 24px;
 }
 
 /* footer*/
@@ -438,28 +443,32 @@ footer {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 0;
-
+  padding-bottom: 60px;
+  padding-top: 60px;
   outline: 1px solid red;
 }
 
 .logotype {
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 20px;
-  padding-top: 60px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .main-addres {
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 .main-addres .mail-link {
-  padding-bottom: 6px;
+  margin-bottom: 6px;
+  margin-top: 9px;
 }
 
-.tell-link {
-  padding-bottom: 60px;
+.main-addres .tell-link {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 footer .link {
@@ -477,5 +486,5 @@ footer .link:focus {
 
 footer .link.color {
   color: var(--white-bg-color);
-  padding-bottom: 9px;
+  padding-bottom: 0;
 }
